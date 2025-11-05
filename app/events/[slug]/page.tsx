@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-// import EventDetails from "@/components/EventDetails";
+import EventDetails from "@/components/EventDetails";
 
 const EventDetailsPage = async ({
   params,
@@ -10,9 +10,9 @@ const EventDetailsPage = async ({
 
   return (
     <main>
-      {/* <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div>Loading...</div>}>
         <EventDetails params={slug} />
-      </Suspense> */}
+      </Suspense>
     </main>
   );
 };
